@@ -6,7 +6,7 @@ import jakarta.validation.constraints.Pattern;
 public class LoginRequest {
     @Email
     private String email;
-    @Pattern(regexp = "^\\+?[0-9]{10,13}$")
+
     private String password;
 
     public LoginRequest() {
